@@ -1,0 +1,13 @@
+body {
+    font-family: 'Cambria', Arial;
+    background-color: #fffff;
+}
+
+#section-one {
+    background-color: #e8e9e9;
+}
+
+#section-two {
+    background-color: #303030;
+    color: #e8e9e9;
+}
