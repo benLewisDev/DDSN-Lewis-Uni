@@ -1,13 +1,66 @@
 body {
     font-family: 'Cambria', Arial;
-    background-color: #fffff;
+    margin: 0;
+    padding: 0;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #215170;
+    height: 70px;
+    padding: 0 25px;
+  }
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .bar {
+    height: 3px;
+    width: 25px;
+    background-color: #fff;
+    margin: 5px 0;
+  }
+  .logo img {
+    height: 60px;
+    margin-left: 100px;
+  }
+  .logo-words{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    font-size: xx-large;
+    color: #fff;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: Cambria
+  }
+  .search-bar form {
+    display: flex;
+    align-items: center;
+  }
+  .search-bar input[type="text"] {
+    border: none;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  .search-bar button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
 
-#section-one {
-    background-color: #e8e9e9;
-}
-
-#section-two {
-    background-color: #303030;
-    color: #e8e9e9;
-}
+  .slider-pics{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
