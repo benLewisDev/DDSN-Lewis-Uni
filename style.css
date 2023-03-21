@@ -37,7 +37,7 @@ header {
     letter-spacing: 1px;
     font-family: Cambria
   }
-  .search-bar form {
+  .search-bar {
     display: flex;
     align-items: center;
   }
@@ -59,8 +59,44 @@ header {
     cursor: pointer;
   }
 
-  .slider-pics{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+
+  #slider {
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    padding-top: 56.25%; /* Set the aspect ratio */
   }
+  
+  .slider-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slider-img.active {
+    opacity: 1;
+  }
+  
+  .slide-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .slide-btn.left {
+    left: 1rem;
+  }
+  
+  .slide-btn.right {
+    right: 1rem;
+  }
+  
