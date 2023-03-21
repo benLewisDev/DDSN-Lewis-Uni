@@ -8,7 +8,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #215170;
-    height: 70px;
+    height: 80px;
     padding: 0 25px;
   }
   .hamburger-menu {
@@ -34,7 +34,7 @@ header {
     font-size: xx-large;
     color: #fff;
     font-weight: bolder;
-    letter-spacing: 1px;
+    letter-spacing: px;
     font-family: Cambria
   }
   .search-bar {
@@ -58,8 +58,6 @@ header {
     font-size: 16px;
     cursor: pointer;
   }
-
-
 
   #slider {
     height: 0;
@@ -90,7 +88,11 @@ header {
     color: white;
     font-size: 2rem;
     cursor: pointer;
-  }
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
   
   .slide-btn.left {
     left: 1rem;
@@ -100,3 +102,112 @@ header {
     right: 1rem;
   }
   
+  .contact {
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 20px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 33.33%;
+    padding: 10px;
+    margin-right: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+.contact h2 {
+    font-size: x-large;
+    font-family: Cambria;
+    color: #215170;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-bottom: 35px;
+}
+
+
+.contact input {
+    font-family: Arial;
+    padding-left: 5px;
+    height: 2rem;
+    margin-top: -25px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#message {
+    border: none;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+textarea {
+    height: 70px;
+    padding: 5px;
+    font-family: Arial;
+  }
+
+.button {
+    font-size: medium;
+    font-weight: bold;
+    font-family: Cambria;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    background-color: #215170;
+    cursor:pointer;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.section-one {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    background-color: #215170;
+    height: 300px;
+    width: 250px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.card img{
+    margin-top: 20px;
+    width: 125px;
+    height: 75px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

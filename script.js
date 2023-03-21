@@ -43,4 +43,3 @@ slideRight.addEventListener("click", function() {
   }
   slides[slideIndex - 1].classList.add("active");
 });
-
