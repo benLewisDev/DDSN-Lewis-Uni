@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -198,17 +199,18 @@ textarea {
     color: #fff;
     background-color: #215170;
     height: 350px;
-    width: 250px;
+    width: 2500px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    max-width: 300px;
 }
 
 .card img{
     margin-top: 20px;
-    margin-bottom: -20px;
+    margin-bottom: -30px;
     width: 125px;
     height: 100px;
     border-radius: 15px;
@@ -219,13 +221,61 @@ textarea {
 }
 
 .card p {
-    margin: 20px;
+    margin: 25px;
     text-align: center;
+    font-size: medium;
+    font-family: Arial;
 }
 
 .card h3 {
     font-family: Cambria;
     font-weight: bolder;
-    font-size: x-large;
-    margin-bottom: -10px;
+    font-size: xx-large;
+    margin-bottom: -15px;
 }
+
+.section-two {
+    color: #fff;
+    background-color: #7098b2;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.section-two img {
+    height: 325px;
+    width: 500px;
+    margin: 20px;
+    align-self: center;
+}
+
+.hero {
+    max-width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 400%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: -10px;
+    margin-top: 20px;
+}
+
+.hero button {
+    height: 50px;
+    width: 150px;
+    margin: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
