@@ -22,7 +22,7 @@ slideRight.className = "slide-btn right fas fa-chevron-right";
 document.getElementById("slider").appendChild(slideLeft);
 document.getElementById("slider").appendChild(slideRight);
 
-slideLeft.addEventListener("click", function() {
+slideLeft.addEventListener("click", function () {
   slideIndex--;
   if (slideIndex < 1) {
     slideIndex = slides.length;
@@ -33,7 +33,7 @@ slideLeft.addEventListener("click", function() {
   slides[slideIndex - 1].classList.add("active");
 });
 
-slideRight.addEventListener("click", function() {
+slideRight.addEventListener("click", function () {
   slideIndex++;
   if (slideIndex > slides.length) {
     slideIndex = 1;
