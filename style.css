@@ -20,7 +20,6 @@ header {
   cursor: pointer;
 }
 
-
 .bar {
   height: 4px;
   width: 35px;
@@ -62,7 +61,6 @@ header {
   padding: 10px;
   text-decoration: none;
 }
-
 
 .logo img {
   height: 60px;
@@ -193,7 +191,8 @@ header {
   -o-border-radius: 5px;
 }
 
-#messageContainer{
+#messageContainer {
+  text-align: center;
   color: #215170;
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 20px;
@@ -210,7 +209,6 @@ header {
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
-
 
 #message {
   border: none;
@@ -275,7 +273,6 @@ textarea {
   margin-top: 20px;
   width: 100%;
 }
-
 
 .card h3 {
   font-family: Cambria;
@@ -410,7 +407,7 @@ footer {
   margin-bottom: 30px;
 }
 
-.responsive-footer{
+.responsive-footer {
   display: flex;
   flex-direction: column;
 }
@@ -451,10 +448,7 @@ footer {
   width: 70%;
 }
 
-
-/* styles for screens with a maximum width of 768px */
 @media only screen and (max-width: 750px) {
-
   .logo img {
     height: 40px;
     margin-left: -1%;
@@ -465,8 +459,6 @@ footer {
     font-size: large;
   }
 
-
-
   .contact {
     position: relative;
     background-color: #7098b2;
@@ -474,7 +466,7 @@ footer {
     margin: 3% auto;
   }
 
-  #messageContainer{
+  #messageContainer {
     position: relative;
     background-color: #7098b2;
     color: #fff;
@@ -488,7 +480,7 @@ footer {
   }
 
   .card {
-    width: 100%
+    width: 100%;
   }
 
   .section-two {
@@ -518,7 +510,7 @@ footer {
   }
 
   .section-four h2 {
-    font-size: 2.5em
+    font-size: 2.5em;
   }
   .section-four h4 {
     font-size: 1.5em;
@@ -530,31 +522,28 @@ footer {
     width: 90%;
   }
 
-.footer{
-  flex-direction: column;
-}
+  footer {
+    flex-direction: column;
+  }
 
-.contact-links{
-  border-right: none;
-}
+  .contact-links {
+    border-right: none;
+  }
 
+  .contact-links:first-child {
+    margin-top: 3%;
+  }
 
-.contact-links:first-child {
-  margin-top: 3%
-}
+  .contact-links h6 {
+    margin-top: 3%;
+  }
 
-.contact-links h6 {
-  margin-top: 3%
-}
-
-.contact-links:last-child {
-  margin-top: 1%;
-}
-
+  .contact-links:last-child {
+    margin-top: 1%;
+  }
 }
 
 @media only screen and (max-width: 900px) {
-
   .logo img {
     height: 40px;
     margin-left: -1%;
@@ -576,12 +565,9 @@ footer {
   .bar {
     width: 25px;
   }
-
 }
 
-  @media only screen and (max-width: 1250px){
-
-
+@media only screen and (max-width: 1250px) {
   #imgHero {
     flex-direction: column;
   }
@@ -591,9 +577,7 @@ footer {
   }
 }
 
-
 @media only screen and (max-width: 450px) {
-
   .logo img {
     display: block;
   }
